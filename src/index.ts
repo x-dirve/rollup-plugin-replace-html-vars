@@ -35,7 +35,7 @@ function processor(options: Options = {}) {
                     throw new Error("Target dir is required.");
                 }
             }
-            
+
             await ensureDir(target);
 
             if (copyFile) {
@@ -46,7 +46,7 @@ function processor(options: Options = {}) {
                 list.forEach(async (name) => {
                     const filePath = path.resolve(target, name);
                     var fileStr = readFileSync(filePath, "utf8");
-                    fileStr = labelReplace(fileStr, data);
+                    fileStr = labelReplace(fileStr, data, true);
                     writeFileSync(filePath, fileStr);
                 });
             }
@@ -54,6 +54,6 @@ function processor(options: Options = {}) {
     }
 }
 
-export { processor as replaceHtmlVars};
+export { processor as replaceHtmlVars };
 
 export default processor;
