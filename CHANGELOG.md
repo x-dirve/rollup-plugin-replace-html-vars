@@ -1,3 +1,8 @@
+## v1.0.2
+
+### Fix
+- fix: 更新依赖，解决标签前后有空格匹配不到的问题 [b312a31](https://github.com/x-dirve/rollup-plugin-replace-html-vars/commit/b312a316e661e99b185e9e76aee1ebe0566948e4)
+
 ## v1.0.1
 
 ### Fix
