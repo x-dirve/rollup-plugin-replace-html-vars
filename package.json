@@ -1,6 +1,6 @@
 {
     "name": "@x-drive/rollup-plugin-replace-html-vars",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Rollup html 处理插件",
     "author": "digiaries <digiaries@hotmail.com>",
     "license": "MIT",
@@ -26,8 +26,8 @@
         "access": "public"
     },
     "dependencies": {
-        "@x-drive/utils": "1.1.8"
-        ,"chalk": "4.1.1"
+        "@x-drive/utils": "1.1.22",
+        "chalk": "4.1.1"
     },
     "devDependencies": {
         "@x-drive/changelog": "1.1.5",
