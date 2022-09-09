@@ -1,3 +1,8 @@
+## v1.0.1
+
+### Fix
+- fix: 修复数据 undefined 问题，保留没有替换数据的标签 [df2ae11](https://github.com/x-dirve/rollup-plugin-replace-html-vars/commit/df2ae114cfda1f456c547536a20d3ed0d5859d33)
+
 ## v1.0.0
 
 ### Feat
